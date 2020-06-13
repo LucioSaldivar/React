@@ -44,8 +44,12 @@ class Contact extends Component {
     render(){
         return (
             <div className="row row-content">
-                <div className="col-12">
-                    <h2>Send us your Feedback</h2>
+                <div className="col">
+                    <Breadcrumb>
+                        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                        <BreadcrumbItem active>Contact Us</BreadcrumbItem>
+                    </Breadcrumb>
+                    <h2>Contact Us</h2>
                     <hr />
                 </div>
                 <div className="col-md-10">
